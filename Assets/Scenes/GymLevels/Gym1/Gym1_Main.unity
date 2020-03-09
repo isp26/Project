@@ -209,6 +209,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3340471662909853936, guid: 78bf87db11d482f49acecf2b3be4e738,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ec91825e58d671a4ca884f5491b1d301, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78bf87db11d482f49acecf2b3be4e738, type: 3}
 --- !u!1 &1515355060
@@ -439,7 +444,7 @@ MonoBehaviour:
       version: 1
     _data:
       data: []
-  - _sourceObject: {fileID: 51057213}
+  - _sourceObject: {fileID: 240671476}
     _sourceField: slider
     DEPRECATED_fromObject:
       scene:
@@ -466,7 +471,7 @@ MonoBehaviour:
       version: 1
     _data:
       data: []
-  - _sourceObject: {fileID: 51057213}
+  - _sourceObject: {fileID: 240671476}
     _sourceField: loadingScreen
     DEPRECATED_fromObject:
       scene:
@@ -492,7 +497,7 @@ MonoBehaviour:
       version: 1
     _data:
       data: []
-  - _sourceObject: {fileID: 240671476}
+  - _sourceObject: {fileID: 51057213}
     _sourceField: slider
     DEPRECATED_fromObject:
       scene:
@@ -519,7 +524,7 @@ MonoBehaviour:
       version: 1
     _data:
       data: []
-  - _sourceObject: {fileID: 240671476}
+  - _sourceObject: {fileID: 51057213}
     _sourceField: loadingScreen
     DEPRECATED_fromObject:
       scene:
@@ -559,20 +564,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndOfLevel
       objectReference: {fileID: 0}
-    - target: {fileID: 6495287343980355844, guid: 65cb2e0523497de44a9652c90150c3b8,
+    - target: {fileID: 6635303122173655108, guid: 65cb2e0523497de44a9652c90150c3b8,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635303122173655108, guid: 65cb2e0523497de44a9652c90150c3b8,
         type: 3}
       propertyPath: loadingScreen
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6495287343980355844, guid: 65cb2e0523497de44a9652c90150c3b8,
+    - target: {fileID: 6635303122173655108, guid: 65cb2e0523497de44a9652c90150c3b8,
         type: 3}
       propertyPath: slider
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6495287343980355844, guid: 65cb2e0523497de44a9652c90150c3b8,
-        type: 3}
-      propertyPath: levelToLoad
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6495287344296965284, guid: 65cb2e0523497de44a9652c90150c3b8,
         type: 3}
@@ -629,32 +634,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2698568763382408092, guid: 65cb2e0523497de44a9652c90150c3b8,
-        type: 3}
-      propertyPath: levelToLoad
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2698568763382408092, guid: 65cb2e0523497de44a9652c90150c3b8,
+    - target: {fileID: 6495287343980355844, guid: 65cb2e0523497de44a9652c90150c3b8,
         type: 3}
       propertyPath: loadingScreen
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 2698568763382408092, guid: 65cb2e0523497de44a9652c90150c3b8,
+    - target: {fileID: 6495287343980355844, guid: 65cb2e0523497de44a9652c90150c3b8,
         type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6635303122173655108, guid: 65cb2e0523497de44a9652c90150c3b8,
+    - target: {fileID: 6495287343980355844, guid: 65cb2e0523497de44a9652c90150c3b8,
+        type: 3}
+      propertyPath: levelToLoad
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698568763382408092, guid: 65cb2e0523497de44a9652c90150c3b8,
         type: 3}
       propertyPath: levelToLoad
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 6635303122173655108, guid: 65cb2e0523497de44a9652c90150c3b8,
+    - target: {fileID: 2698568763382408092, guid: 65cb2e0523497de44a9652c90150c3b8,
         type: 3}
       propertyPath: loadingScreen
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6635303122173655108, guid: 65cb2e0523497de44a9652c90150c3b8,
+    - target: {fileID: 2698568763382408092, guid: 65cb2e0523497de44a9652c90150c3b8,
         type: 3}
       propertyPath: slider
       value: 
